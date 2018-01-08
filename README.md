@@ -111,7 +111,7 @@ Once the extension is installed, simply use it in your code by  :
 
     
     //Or
-    echo \twitf\dropzone\DropZone::widget('twitf\dropzone\DropZone', [
+    echo \twitf\dropzone\DropZone::widget([
         'sortable'=>true,
         'model' => $model,
         'attribute' => 'file',
