@@ -4,7 +4,7 @@ twitf/yii2-dropzone
 
 
 Yii2 Dropzone Extention , Supports sorting
-
+> PS：再三强调不要使用jquery2.2.4以上版本，不然直接GG
 Installation
 ------------
 
