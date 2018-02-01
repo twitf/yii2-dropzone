@@ -6,6 +6,23 @@ twitf/yii2-dropzone
 Yii2 Dropzone Extention , Supports sorting
 > PS：再三强调不要使用jquery2.2.4以上版本，不然直接GG
 
+```
+可以在此处自定义资源包 xxxx/config/config.php配置如下
+'components'=>[
+            'assetManager' => [
+            'bundles' => [
+                'yii\web\JqueryAsset' => [
+                    'sourcePath' => null,// 一定不要发布该资源
+                    'js' => [
+                        '/js/jquery-2.2.4.min.js',
+                    ]
+                ],
+            ],
+        ],
+]
+
+```
+
 Installation
 ------------
 
