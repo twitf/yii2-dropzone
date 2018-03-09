@@ -145,6 +145,6 @@ Once the extension is installed, simply use it in your code by  :
 
    ```
 
-> 右上角的(小星星)star点了有奇效 。第一次写扩展 代码很粗糙 如果能帮到你是我的荣幸 哪里有问题欢迎致电我的邮箱 837422076@qq.com
+> 有问题欢迎致电我的邮箱 837422076@qq.com
 
     
