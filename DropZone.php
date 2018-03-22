@@ -199,8 +199,8 @@ class DropZone extends InputWidget
             //回显数据处理后的数组
             $mockFile_arr=[];
             foreach ($this->mockFiles as $key=>$value){
-                $mockFile_arr[$key]['name']=basename($value);
-                $mockFile_arr[$key]['size']=ceil(filesize(\Yii::getAlias("@webroot").$value));
+                $mockFile_arr[$key]['name']=@basename($value);
+                $mockFile_arr[$key]['size']=@ceil(@filesize(\Yii::getAlias("@webroot").$value));
                 $mockFile_arr[$key]['url']=$value;
             }
             $mockFileJson=Json::encode($mockFile_arr);
