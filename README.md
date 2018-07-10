@@ -2,6 +2,9 @@ twitf/yii2-dropzone
 ==============
 [![Latest Stable Version](https://poser.pugx.org/twitf/yii2-dropzone/v/stable)](https://packagist.org/packages/twitf/yii2-dropzone)  [![Total Downloads](https://poser.pugx.org/twitf/yii2-dropzone/downloads)](https://packagist.org/packages/twitf/yii2-dropzone)  [![License](https://poser.pugx.org/twitf/yii2-dropzone/license)](https://packagist.org/packages/twitf/yii2-dropzone)
 
+> 图例
+
+![](http://ww1.sinaimg.cn/large/0063k2Cjly1ft4lcz5miqg30ta06jkjm.gif)
 
 Yii2 Dropzone Extention , Supports sorting
 > PS：再三强调不要使用jquery2.2.4以上版本，不兼容jquery2.2.4以上版本(Again and again, do not use jquery2.2.4 or above, not compatible with jquery2.2.4 or above.)
