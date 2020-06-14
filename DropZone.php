@@ -250,7 +250,49 @@ class DropZone extends InputWidget
         }
 
         $this->getView()->registerJs($js);
-
+        $this->registerFancBox();
         DropZoneAsset::register($this->getView());
+    }
+
+    public function registerFancBox()
+    {
+        $js = <<<JS
+$('[data-fancybox="gallery"]').fancybox({
+
+  // Internationalization
+  // ====================
+
+  lang:"zh_cn",
+  i18n: {
+    en: {
+      CLOSE: "Close",
+      NEXT: "Next",
+      PREV: "Previous",
+      ERROR: "The requested content cannot be loaded. <br/> Please try again later.",
+      PLAY_START: "Start slideshow",
+      PLAY_STOP: "Pause slideshow",
+      FULL_SCREEN: "Full screen",
+      THUMBS: "Thumbnails",
+      DOWNLOAD: "Download",
+      SHARE: "Share",
+      ZOOM: "Zoom"
+    },
+    zh_cn: {
+      CLOSE: "关闭",
+      NEXT: "下一张",
+      PREV: "上一张",
+      ERROR: "无法加载所请求的内容。<br>请稍后再试。",
+      PLAY_START: "开始幻灯片放映",
+      PLAY_STOP: "暂停幻灯片放映",
+      FULL_SCREEN: "全屏",
+      THUMBS: "缩略图",
+      DOWNLOAD: "下载",
+      SHARE: "分享",
+      ZOOM: "缩放"
+    }
+  }
+});
+JS;
+        $this->getView()->registerJs($js);
     }
 }
